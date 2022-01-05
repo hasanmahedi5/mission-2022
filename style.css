@@ -1,21 +1,13 @@
-body p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
 section{
 
     display: flex;
-}
-.mission h1{
-    font-family: 'Yeseva One', cursive;
 }
 
 .half_width{
 
     width: 50%;
-    padding: 10px;
 }
 
 .half_width img{
-    width: 50%;
+    width: 100%;
 }
