@@ -1,13 +1,172 @@
-section{
+body{
+
+    margin: 0;
+}
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 45px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 32px;
+    font-family:  'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.first_section{
+    padding: 30px;
+    margin: 0;
+}
+.f-display{
 
     display: flex;
+    align-items: center;
 }
 
-.half_width{
+.half-width{
 
     width: 50%;
+    float: left;
+    padding: 30px 180px;
+
 }
 
-.half_width img{
+.half-width img{
+    width: 80%;}
+
+.main-color{
+    color: #fa8072;
+}
+.first_section h1 {
+    position: relative;
+    font-family: 'Yeseva One', cursive;
+    padding-left: 30px;
+}
+.first_section h1::before {
+    content: "";
+    width: 1%;
+    height: 78%;
+    background-color: #456f99;
+    position: absolute;
+    border-radius: 30px;
+    left: 0;
+    top: 13%;
+}
+.button{
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-image: linear-gradient(90deg, #e72207, #a00a0a);
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.h-mission{
+    text-align: center;
+}
+
+
+.mission-item{
+    font-size: 48px;
+}
+.mission-width{
+    width: 22%;
+}
+.item-mission{
+  
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #edf5f6;
+    margin: 12px;
+    font-size: 40px;
+}
+.item-mission img{
+    width: 50%;
+    margin-bottom: 12px;
+}
+.sec-color{
+
+    background-color: #ffeeee;
+}
+
+.tir-color{
+
+    background-color: #fff4d6 ;
+}
+
+.service-area{
+    margin-top: 100px;
+}
+
+.service-image{
+	width: 30%;
+}
+.service-image-2{
+	width: 30%;
+}
+.service-image img{
     width: 100%;
+}
+.service-image-2 img{
+    width: 100%;
+}
+
+.service-content-1{
+	width: 40%;
+	margin-left: 58px;
+}
+.service-content-2{
+	width: 40%;
+ 
+
+    
+}
+
+.service-image-2{
+    margin-left: 50px;
+}
+
+.choose-box{
+    padding: 5px 22px;
+    border-radius: 30px;
+    background-color: #edf5f6;
+    margin: 2px 8px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.choose-box img{
+    width: 100%;
+  
+}
+.choose-width{
+    width: 15%;
+}
+
+.footer-area{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #0b0d17;
+}
+.footer-area h3{
+    font-family: 'Lobster', cursive;
+
+}
+.footer-area h3, 
+.footer-area p {
+	color: #fff;
+	margin: 15px 0;
 }
