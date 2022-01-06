@@ -110,7 +110,7 @@ a{
 
 .service-area-1{
     margin-top: 100px;
-    background-image: url(/images/shapes/shape-3.png);
+    background-image: url(images/shapes/shape-3.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 100px;
@@ -120,7 +120,7 @@ a{
 }
 .service-area-2{
     margin-top: 100px;
-    background-image: url(/images/shapes/shape-3.png);
+    background-image: url(images/shapes/shape-3.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 150px;
