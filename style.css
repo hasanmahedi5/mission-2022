@@ -23,6 +23,7 @@ a{
 .first_section{
     padding: 30px;
     margin: 0;
+    
 }
 .f-display{
 
@@ -107,8 +108,24 @@ a{
     background-color: #fff4d6 ;
 }
 
-.service-area{
+.service-area-1{
     margin-top: 100px;
+    background-image: url(/images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+    background-position-x: 820px;
+    background-position-y: 70px;
+    
+}
+.service-area-2{
+    margin-top: 100px;
+    background-image: url(/images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px;
+    background-position-x: 150px;
+    background-position-y: 25px;
 }
 
 .service-image{
@@ -138,7 +155,10 @@ a{
 .service-image-2{
     margin-left: 50px;
 }
-
+.whychoose-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .choose-box{
     padding: 5px 22px;
     border-radius: 30px;
